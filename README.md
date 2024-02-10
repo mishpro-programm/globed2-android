@@ -1,6 +1,6 @@
 # Globed
 
-Globed is an open-source, highly customizable multiplayer mod for Geometry Dash.
+Globed is an open-source, highly customizable multiplayer mod for Geometry Dash. (now for android👍👍👍👍)
 
 This repository contains the complete rewrite of Globed, for Geometry Dash 2.2 and all future versions. If you want the 2.1 version, the [old repository](https://github.com/dankmeme01/globed) is still up, however it is no longer maintained.
 
