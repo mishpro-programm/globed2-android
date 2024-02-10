@@ -29,7 +29,7 @@ CCTexture2D* HookedGameManager::loadIcon(int iconId, int iconType, int iconReque
 
     std::string sheetName = gm->sheetNameForIcon(iconId, iconType);
     if (!sheetName.empty()) {
-        int* key = (int*) gm->keyForIcon(iconId, iconType);
+        int key = static_cast<int>(gm->keyForIcon(iconId, iconType));
 
         if (gm->m_loadIcon[key] < 1) {
             texture = textureCache->addImage((sheetName + ".png").c_str(), false);
